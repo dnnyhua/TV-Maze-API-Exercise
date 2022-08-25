@@ -1,0 +1,54 @@
+img {
+  max-width: 210px;
+}
+
+
+body {
+  background-image: url(maze.jpg);
+}
+
+
+#shows-list{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 20px;
+}
+
+
+.showContainer{
+  border: 3px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: hsla(244, 13%, 55%, 0.9);
+  width: 20%;
+  
+}
+
+
+.mediaContainer {
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+.showTitle {
+  font-size: 17px;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.showSummary {
+  text-align: left;
+  align-items: center;
+  align-content: center;
+}
+
+
+#episodes-area {
+  background-color: hsla(244, 26%, 75%, 0.9);
+  padding: 5px 5px 5px 20px;
+  width: 40%;
+}
